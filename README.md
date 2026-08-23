@@ -1,4 +1,4 @@
-# Indic-Guided Open-Vocabulary Zero-Shot Image Segmentation 🎯👁️
+# Indic-Guided Zero-Shot Image Segmentation 🎯👁️
 
 A robust, multimodal deep learning pipeline that bridges the gap between natural language processing for Indian languages and zero-shot computer vision. This project takes regional Indic text prompts (e.g., Hindi) and performs highly accurate, open-vocabulary object detection and mask segmentation on images. 
 
@@ -22,7 +22,6 @@ The pipeline fuses multiple state-of-the-art transformer models to achieve accur
 * **Zero-Shot Flexibility:** Detect and segment virtually any object without requiring custom training or domain-specific datasets.
 * **Multimodal Late Fusion:** Balances OWLv2 object detection confidence scores with CLIP semantic similarity scores using a calibratable `alpha` weight.
 * **Native Indic Rendering:** Safely burns Devanagari (and other regional scripts) directly onto the output visualizations using PIL, completely avoiding Matplotlib's "tofu" (missing glyph) errors.
-* **Scalable Foundation:** Easily adaptable for low-resource regional languages (such as Santali, Mundari, or Bhili) by swapping or fine-tuning the translation/text-encoder modules.
 
 ## 📂 Project Structure
 
